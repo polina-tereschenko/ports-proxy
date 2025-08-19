@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "chrono": "c",
+        "stdlib.h": "c",
+        "argtable3.h": "c",
+        "fcntl.h": "c",
+        "file.h": "c",
+        "unistd.h": "c",
+        "struct_iovec.h": "c",
+        "cstdlib": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

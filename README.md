@@ -4,25 +4,11 @@ This is a low-level proxy for data exchange between two serial ports (UART ↔ U
 
 ---
 
-## Usage example
-
-### Via Socat
-
-```bash
-gcc proxy.c -o proxy -largtable2 -lprom && ./proxy --serial-port-1 /tmp/ttyV0 --serial-port-2 /tmp/ttyV2 --baud 115200
-```
-
-### Via Socat & USB
-
-```shell
-gcc proxy.c -o proxy -largtable2 -lprom && ./proxy --serial-port-1 /tmp/ttyV0 --serial-port-2 /dev/ttyUSB0 --baud 115200
-```
-
 ## Developer notes
 
 ### Dependencies
 
-- [argtable2](https://packages.gentoo.org/packages/dev-libs/argtable) (in this proxy version you need to install it by yourself)
+- [argtable2](https://packages.gentoo.org/packages/dev-libs/argtable) (for install run build command)
 - [prometheus-client-c](https://github.com/digitalocean/prometheus-client-c) (for install run build command)
 
 ### Setup Development Environment
